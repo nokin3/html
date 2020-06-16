@@ -1,0 +1,12 @@
+/*Styling the Triangle*/
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary:before {
+      content: "►";
+    }
+
+    details[open] summary:before {
+      content: "▼";
+    }
